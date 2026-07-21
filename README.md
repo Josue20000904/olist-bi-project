@@ -98,28 +98,35 @@ The final goal is to transform data into business intelligence.
 
 ---
 
-# Project Workflow
+## 🔄 Project Workflow
 
-
+```text
 Data Collection
-    ↓
+      │
+      ▼
 Data Cleaning & ETL (Python)
-    ↓
+      │
+      ▼
 Database Modeling (SQL)
-    ↓
+      │
+      ▼
 Exploratory Data Analysis (Excel)
-    ↓
+      │
+      ▼
 Analytical Layer
-    ↓
+      │
+      ▼
 Power BI Data Model
-    ↓
+      │
+      ▼
 Dashboards
-    ↓
+      │
+      ▼
 Storytelling
-    ↓
+      │
+      ▼
 Business Recommendations
-    ↓
-
+```
 
 ---
 
@@ -151,10 +158,10 @@ Business Recommendations
 
 ---
 
-# Repository Structure
+## Repository Structure
 
+```text
 olist-bi-end-to-end/
-
 │
 ├── README.md
 ├── LICENSE
@@ -162,69 +169,57 @@ olist-bi-end-to-end/
 ├── requirements.txt
 │
 ├── docs/
-│ │
-│ ├── Project_Plan.md
-│ ├── Business_Understanding.md
-│ ├── Data_Dictionary.md
-│ ├── Architecture.md
-│ ├── KPI_Definition.md
-│ └── Storytelling.md
+│   ├── Project_Plan.md
+│   ├── Business_Understanding.md
+│   ├── Data_Dictionary.md
+│   ├── Architecture.md
+│   ├── KPI_Definition.md
+│   └── Storytelling.md
 │
 ├── data/
-│ │
-│ ├── raw/
-│ ├── processed/
-│ └── external/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
 │
 ├── sql/
-│ │
-│ ├── create_database.sql
-│ ├── create_tables.sql
-│ ├── insert_data.sql
-│ ├── views.sql
-│ ├── procedures.sql
-│ └── analytical_queries.sql
+│   ├── create_database.sql
+│   ├── create_tables.sql
+│   ├── insert_data.sql
+│   ├── views.sql
+│   ├── procedures.sql
+│   └── analytical_queries.sql
 │
 ├── python/
-│ │
-│ ├── notebooks/
-│ │ ├── 01_data_exploration.ipynb
-│ │ ├── 02_data_cleaning.ipynb
-│ │ ├── 03_feature_engineering.ipynb
-│ │ └── 04_analysis.ipynb
-│ │
-│ ├── etl/
-│ ├── eda/
-│ ├── visualization/
-│ └── utils/
+│   ├── notebooks/
+│   │   ├── 01_data_exploration.ipynb
+│   │   ├── 02_data_cleaning.ipynb
+│   │   ├── 03_feature_engineering.ipynb
+│   │   └── 04_analysis.ipynb
+│   ├── etl/
+│   ├── eda/
+│   ├── visualization/
+│   └── utils/
 │
 ├── excel/
-│ │
-│ ├── exploratory_analysis.xlsx
-│ └── pivot_tables.xlsx
+│   ├── exploratory_analysis.xlsx
+│   └── pivot_tables.xlsx
 │
 ├── powerbi/
-│ │
-│ └── Olist_Dashboard.pbix
+│   └── Olist_Dashboard.pbix
 │
 ├── images/
-│ │
-│ ├── banner-github.png
-│ ├── workflow.png
-│ ├── architecture.png
-│ ├── er_model.png
-│ │
-│ └── dashboard/
-│ ├── executive.png
-│ ├── sales.png
-│ ├── logistics.png
+│   ├── banner-github.png
+│   ├── workflow.png
+│   ├── architecture.png
+│   ├── er_model.png
+│   └── dashboard/
+│       ├── executive.png
+│       ├── sales.png
+│       └── logistics.png
 │
 └── presentation/
-
-└── Executive_Presentation.pdf
-
-
-
+    └── Executive_Presentation.pdf
+```
 
 ---
 

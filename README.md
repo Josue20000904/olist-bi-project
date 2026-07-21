@@ -2,10 +2,6 @@
 ## End-to-End Business Intelligence Project | Olist Dataset
 
 
-<p align="center">
-  <img src="images/banner-github.png" alt="Banner do GitHub" width="100%">
-</p>
-
 
 # Overview
 
